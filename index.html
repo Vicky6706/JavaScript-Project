@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Image Gallery</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+</head>
+<body>
+
+    
+    
+    <div id="window" class="window"></div>
+    <div class="time-date">     
+    <div id="clock" class="clock"></div>
+    <div id="date" class="date"></div>
+</div>
+
+
+    <div class="image-container">
+        <span style="--i:1"><img src="images/Cliffs-Moher.jpg" alt="Image of Cliffs of Moher" data-info="The Cliffs of Moher are sea cliffs located at the southwestern edge of the Burren region in County Clare, Ireland."></span>
+        <span style="--i:2"><img src="images/Diamond-Hill.jpg" alt="Diamond Hill Connemara" data-info="Diamond Hill is a peak in the Connemara National Park in Ireland."></span>
+        <span style="--i:3"><img src="images/GiantsCauseway.jpg" alt="Giants Causeway" data-info="The Giant's Causeway is an area of about 40,000 interlocking basalt columns in Northern Ireland."></span>
+        <span style="--i:4"><img src="images/ring-of-kerry.jpg" alt="Ring of Kerry Ireland" data-info="The Ring of Kerry is a tourist trail in County Kerry, southwestern Ireland."></span>
+        <span style="--i:5"><img src="images/rock-of-cashel-deposit.jpg" alt="Rock of Cashel" data-info="The Rock of Cashel is a historic site located at Cashel, County Tipperary, Ireland."></span>
+        <span style="--i:6"><img src="images/ruinsofthreecastlecork.jpg" alt="Ruins of the Three castle Cork" data-info="The ruins of the Three Castle Head in West Cork are a spectacular sight."></span>
+    </div>
+    <div class="btn-container">
+       <button class="btn" id="prev">Previous</button>
+       <button class="btn" id="next">Next</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    
+
+    <script src="JavaScript/JavaScript.js"></script>
+</body>
+</html>
