@@ -17,19 +17,33 @@ Additionally, a prompt asks for the user's name, which is then used to display a
   Project structure
 
   rotating-image-gallery/
+  
 ├── CSS/
+
 │   └── stylesheet.css
+
 ├── images/
+
 │   ├── Cliffs-Moher.jpg
+
 │   ├── Diamond-Hill.jpg
+
 │   ├── GiantsCauseway.jpg
+
 │   ├── ring-of-kerry.jpg
+
 │   ├── rock-of-cashel-deposit.jpg
+
 │   └── ruinsofthreecastlecork.jpg
+
 ├── JavaScript/
+
 │   └── JavaScript.js
+
 ├── index.html
+
 ├── README.md
+
 └── DOCUMENTATION.md
 
 
